@@ -1,13 +1,16 @@
-import React from 'react';
 import './App.css';
+import { HashRouter, Route, Routes } from 'react-router-dom';
+import TheAccessLens from './TheAccessLens';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        The Access Lens
-      </header>
-    </div>
+    <HashRouter>
+      <div>
+        <Routes>
+          <Route path="/*" element={<TheAccessLens/>}/>
+        </Routes>
+      </div>
+    </HashRouter>
   );
 }
 
