@@ -1,0 +1,59 @@
+img {
+    width: 35%;
+    border-radius: 5px;
+}
+
+.homeDis {
+    background-color: #BCAFF8;
+    padding: 2.5%;
+    border-radius: 25px;
+}
+
+p {
+    text-align: left;
+}
+
+.homeDis p {
+    width: 85%;
+    padding-left: 5%;
+    padding-top: 2.5%;
+    line-height: 2;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5%;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    line-height: 2;
+}
+
+.container .journeyBtn {
+    display: block;
+    width: 30%;
+    font-size: 25px;
+    margin: 2.5% auto;
+    text-align: center;
+}
+.simLink .col {
+    padding-top: 2.5%;
+}
+
+.simLink .col img {
+    max-width: 100% !important;
+    width: 90%;
+}
+
+.simLink .col a {
+    color: inherit;
+    text-decoration: none;
+    text-align: left;
+}
+
+.simLink .col:hover {
+    background-color: rgba(0, 0, 0, .10);
+    text-decoration: underline;
+    border-radius: 15px;
+}

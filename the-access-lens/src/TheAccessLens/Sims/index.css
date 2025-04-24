@@ -1,0 +1,311 @@
+.mainContent {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.mainContent p, li {
+    line-height: 2;
+}
+
+h4 {
+    margin-bottom: 20px !important;
+}
+
+.intro {
+    width: 75%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.personCardD,
+.personCardA,
+.personCardCB {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 75px;
+    background-color: #ede9fa;
+    border-radius: 25px;
+    padding: 5%;
+}
+
+.personCardD div,
+.personCardCB div {
+    display: flex;
+    gap: 5%;
+}
+
+.personCardD div img,
+.personCardCB div div img{
+    width: 30%;
+    height: fit-content;
+}
+
+.adhdTip div div .adhdimages {
+    width: 50% !important;
+}
+
+.adhdimages img {
+    width: 100% !important;
+    border-radius: 5px;
+    height: fit-content;
+}
+
+.adhdimages p {
+    font-size: small;
+}
+
+.adhdTip div {
+    gap: 5%;
+}
+
+
+
+.cbImg {
+    width: 30%;
+}
+
+.cbText {
+    width: 65%;
+}
+
+.cbImg img {
+    width: 100% !important;
+}
+
+.personCardD div div {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cbIntro div {
+    display: flex;
+    flex-direction: column;
+}
+
+.cbIntro div p {
+    margin-bottom: 20px !important;
+}
+  
+.alert-d {
+    width: 100% !important;
+    text-align: left !important;
+    padding: 15px !important;
+    margin-bottom: 0px !important;
+}
+
+.alert-d ul {
+    margin-top: 5px !important;
+    margin-bottom: 0px !important;
+}
+
+.alert-d h6 {
+    margin-bottom: 0px !important;
+}
+
+.cbTipContainer {
+    margin: auto;
+}
+
+.cbTip {
+    width: 50%;
+    background-color: #BCAFF8;
+    border-radius: 25px;
+    padding: 25px;
+    padding-bottom: 5px !important;
+}
+
+.adhdTip,
+.cbTip {
+    display: flex;
+    flex-direction: column;
+}
+
+.adhdTip h6 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.imageSelector {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px;
+    height: 10%;
+}
+
+.imageSelector div {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    gap: 0 !important;
+}
+
+.imageSelector button {
+    text-align: left !important;
+    background-color: #785ef0 !important;
+    color: #fff !important;
+}
+
+.imageSelector p {
+    margin-bottom: 0px !important;
+}
+
+.filterSection,
+.filterSection1 {
+    gap: 0px !important;
+}
+
+.filterSection1 {
+    width: 35% !important;
+}
+
+.filterSection div,
+.filterSection1 div {
+    width: 100%;
+}
+
+.colorSwatches {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.typeSwatches {
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+.typeSwatches .square {
+    width: 100% !important;
+    height: 75px !important;
+}
+
+
+.colorSwatches div {
+    border-right: #727272 1px solid;
+}
+
+.square {
+    width: auto !important;
+    height: 100px;
+}
+
+.color1 {
+    background-color: #ffffff;
+    border-top: #727272 1px solid;
+}
+
+.color2 {
+    background-color: #000;
+}
+
+.color3 {
+    background-color: #785ef0;
+}
+
+.color4 {
+    background-color: #BCAFF8;
+}
+
+.color5 {
+    background-color: #ede9fa;
+    border-bottom: #727272 1px solid;
+}
+
+.colorR {
+    background-color: rgb(255, 0, 0);
+}
+
+.colorG {
+    background-color: rgb(0, 255, 0);
+}
+
+.colorB {
+    background-color: rgb(0, 0, 255);
+}
+
+.original div {
+    border-left: #727272 1px solid;
+}
+
+.typeSwatches,
+.typeSwatches div {
+    border-left: none !important;
+}
+
+
+.protanopia {
+    filter: url(#Protanopia);
+}
+
+.protanomaly {
+    filter: url(#Protanomaly);
+}
+
+.deuteranopia {
+    filter: url(#Deuteranopia);
+}
+
+.deuteranomaly {
+    filter: url(#Deuteranomaly);
+}
+
+.tritanopia {
+    filter: url(#Tritanopia);
+}
+
+.tritanomaly {
+    filter: url(#Tritanomaly);
+}
+
+.achromatopsia {
+    filter: url(#Achromatopsia);
+}
+
+.achromatomaly {
+    filter: url(#Achromatomaly);
+}
+
+.accordion-item {
+    width: 100% !important;
+    border: none !important;
+}
+
+.accordion-item div {
+    width: 100% !important;
+    background-color: #BCAFF8;
+}
+
+.extra {
+    width: 90% !important;
+    display: flex;
+    margin: 0px auto !important;
+    gap: 5px !important;
+}
+
+.extra p {
+    margin-top: 40px;
+}
+
+.accordion-item ul{
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+li{
+    margin-bottom: 15px !important;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.cbFilterInfo {
+    margin-bottom: 20px;
+}

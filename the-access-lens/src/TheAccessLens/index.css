@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Arial&family=Bodoni+Moda&family=Calibri&family=Cambria&family=Caveat&family=Chewy&family=Comfortaa&family=Comic+Sans&family=Cormorant+Unicase&family=Courier+New&family=Georgia&family=Gravitas+One&family=Impact&family=Indie+Flower&family=Libre+Baskerville&family=Lobster&family=Merriweather&family=Montserrat&family=New+Rocker&family=Open+Sans&family=Orbitron&family=Oswald&family=Permanent+Marker&family=Philosopher&family=Plaster&family=Playfair+Display&family=Roboto&family=Sacramento&family=Source+Code+Pro&family=Space+Mono&family=Tangerine&family=Times+New+Roman&family=Verdana');
+
+.talGlobal {
+    padding-bottom: 2.5%;
+}
+
+.navigation {
+    padding-bottom: 75px;
+}
+
+.btn-pale {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: rgb(0, 0, 0, .25);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: rgb(0, 0, 0, .5);
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: rgb(0, 0, 0, .25);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    border: none;
+}
+
+.btn-purple {
+    --bs-btn-color: #fff !important;
+    --bs-btn-bg: #785ef0 !important;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: rgba(120, 94, 240, .75);
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #785ef0;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    border: none;
+}
+
+.btn-pale-purple {
+    --bs-btn-color: black !important;
+    --bs-btn-bg: #BCAFF8 !important;
+    --bs-btn-hover-color: black;
+    --bs-btn-hover-bg: rgba(120, 94, 240, .75);
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: black;
+    --bs-btn-active-bg: #BCAFF8;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    border: none;
+}
+
+.form-range-purp {
+    accent-color: #785ef0;
+    padding: 5px;
+}
+
+.dropdown-purp {
+    background-color: #785ef0;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.dropdown-purp option {
+    background: #fff;
+    color: black;
+}
+
+.card-purp {
+    all: inherit !important;
+}

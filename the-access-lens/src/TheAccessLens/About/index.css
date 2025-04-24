@@ -1,0 +1,43 @@
+.aboutContainer,
+.aboutContainer2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 75px;
+    background-color: #ede9fa;
+    border-radius: 25px;
+    padding: 2.5%;
+    width: 55%;
+}
+
+.aboutContainer {
+    text-align: left;
+}
+
+.aboutContainer p {
+    margin-top: 20px;
+}
+
+.aboutContainer2 {
+    width: 90% !important;
+}
+
+.resourceList {
+    display: flex;
+    flex-direction: row;
+    margin: auto !important;
+    gap: 32px;
+    width: 100%;
+}
+
+.resourceList ul {
+    text-align: left;
+    width: 40%;
+    margin: 0px auto;
+}
+
+.resourceList li {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal; /* ensure text is allowed to wrap */
+    max-width: 100%;
+}
