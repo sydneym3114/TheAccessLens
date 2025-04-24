@@ -25,7 +25,7 @@ const Dyslexia = () => {
                     aria-controls="collapseExample"
                 >
                     <h6>Difficulties:</h6>
-                    <div className="collapse" id="collapseExample2">
+                    <div className="collapse show" id="collapseExample2">
                         <div className="card card-body card-purp">
                             <ul>
                                 <li>Skipping Lines & Losing Place – Avoid small text, cramped spacing, and visually similar lines.</li>
@@ -45,7 +45,7 @@ const Dyslexia = () => {
                     aria-controls="collapseExample"
                 >
                     <h6>How to help:</h6>
-                    <div className="collapse" id="collapseExample1">
+                    <div className="collapse show" id="collapseExample1">
                         <div className="card card-body card-purp">
                             <ul>
                                 <li>Use Bigger, Bolder Fonts – Higher weight and larger text improve readability.</li>
@@ -74,7 +74,7 @@ const Dyslexia = () => {
                     aria-controls="collapseExample"
                 >
                     <h6>Difficulties:</h6>
-                    <div className="collapse" id="collapseExample3">
+                    <div className="collapse show" id="collapseExample3">
                         <div className="card card-body card-purp">
                             <ul>
                                 <li>Similar Letters – Confusing shapes like b, d, and p make fast reading tricky and lead to mix-ups.</li>
@@ -94,7 +94,7 @@ const Dyslexia = () => {
                     aria-controls="collapseExample"
                 >
                     <h6>How to help:</h6>
-                    <div className="collapse" id="collapseExample4">
+                    <div className="collapse show" id="collapseExample4">
                         <div className="card card-body card-purp">
                             <ul>
                                 <li>Clear Letterforms – Fonts with minimal serifs and strong letter distinction improve accuracy.</li>
@@ -123,7 +123,7 @@ const Dyslexia = () => {
                     aria-controls="collapseExample"
                 >
                     <h6>Difficulties:</h6>
-                    <div className="collapse" id="collapseExample5">
+                    <div className="collapse show" id="collapseExample5">
                         <div className="card card-body card-purp">
                             <ul>
                                 <li>Tiny Text – Small print strains my eyes and slows me down, making it harder to stay focused.</li>
@@ -142,7 +142,7 @@ const Dyslexia = () => {
                     aria-controls="collapseExample"
                 >
                     <h6>How to help:</h6>
-                    <div className="collapse" id="collapseExample6">
+                    <div className="collapse show" id="collapseExample6">
                         <div className="card card-body card-purp">
                             <ul>
                                 <li>Well-Spaced Text – Lines that are spaced out just enough (but not too much) help me read smoothly without feeling overwhelmed or losing flow.</li>

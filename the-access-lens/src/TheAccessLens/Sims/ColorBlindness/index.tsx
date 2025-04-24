@@ -116,7 +116,7 @@ const ColorBlindness = () => {
             <ColorFilters/>
             <h2>Color Blindness</h2>
             <p className='intro'>This page is your guide to understanding color blindness in depth. You'll learn what color blindness is, who it affects, and how many people experience it worldwide. We'll explore the different types of color blindness, explaining how each one alters the way colors are perceived. In addition, you'll find practical tips on how to make the world more accessible for those with color vision deficiencies, including best practices for design, communication, and everyday interactions. By the end, you'll also gain insight into the color palette used on this site and how it was carefully chosen to prioritize accessibility, ensuring that the content is clear and inclusive for as many people as possible.</p>
-            <div className='personCardCB'>
+            <div className='personCardCB longText'>
                 <h4>Intro to Color Blindness:</h4>
                 <div className='cbIntro'>
                     <div className='cbImg'>
