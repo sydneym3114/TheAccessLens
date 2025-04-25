@@ -2,8 +2,6 @@ import React, { useEffect, useRef } from 'react';
 import useLayout from './Layout/useLayout';
 import { useTypographyContext } from './typographySettings';
 import { useLayoutContext } from './layoutSetting';
-import { wait } from '@testing-library/user-event/dist/utils';
-import { waitFor } from '@testing-library/dom';
 import { Navigate, useNavigate } from 'react-router-dom';
 
 const CongratsSection: React.FC = () => {
@@ -27,7 +25,10 @@ const CongratsSection: React.FC = () => {
       const navigate = useNavigate(); // Call useNavigate at the top level of the component
 
   const handleResetJourney = () => {
-    navigate('/TheJourney/reset'); // Use navigate inside the event handler
+    navigate('/TheJourney/reset');
+    setTimeout(() => {
+      window.location.reload();
+    }, 100);
   };
 
     return (

@@ -6,8 +6,8 @@ type TextAlign = 'left' | 'center' | 'right';
 const useTypography = () => {
     const [font, setFont] = useState('Arial');
     const [fontSize, setFontSize] = useState(16);
-    const [lineHeight, setLineHeight] = useState(1);
-    const [lineLength, setLineLength] = useState(140);
+    const [lineHeight, setLineHeight] = useState(1.2);
+    const [lineLength, setLineLength] = useState(100);
     const [headerFontSize, setHeaderFontSize] = useState(24);
     const [textAlign, setTextAlign] = useState<TextAlign>('left');
     const [headerTextAlign, setHeaderTextAlign] = useState<TextAlign>('left'); // Added header alignment state

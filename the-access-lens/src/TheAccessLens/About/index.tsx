@@ -19,23 +19,23 @@ const About = () => {
         <h4>Resources</h4>
         <div className='resourceList'>
           <ul>
-            <li>https://github.com/MaPePeR/jsColorblindSimulator/blob/master/colorblind.js</li>
-            <li>https://eyewiki.org/Color_Vision#Evaluation_of_Color_Vision_Deficiencies</li>
-            <li>https://www.eyecare-specialists.com/colourvisionold</li>
-            <li>https://observablehq.com/@frankelavsky/contrast-and-no-use-of-color-alone-in-adjacent-charts</li>
-            <li>https://observablehq.com/@frankelavsky/high-contrast-for-data-visualization-with-examples</li>
-            <li>https://observablehq.com/@frankelavsky/no-use-of-color-alone-in-data-visualization</li>          
-          </ul>
-          <ul>
-            <li>https://help.chi.ac.uk/working-someone-dyslexia</li>
-            <li>https://www.wcag.com/blog/digital-accessibility-and-neurodiversity/#How_to_get_started_designing_for_neurodiversity</li>
-            <li>https://www.northeastern.edu/</li>
-            <li>https://www.kennesaw.edu/</li>
-            <li>https://www.yale.edu/</li>
-            <li>https://www.uga.edu/</li>
-            <li>https://www.nytimes.com/</li>
-            <li>https://www.cnn.com/?refresh=1</li>
-          </ul>
+  <li><a href="https://github.com/MaPePeR/jsColorblindSimulator/blob/master/colorblind.js" target="_blank">GitHub – jsColorblindSimulator</a></li>
+  <li><a href="https://eyewiki.org/Color_Vision#Evaluation_of_Color_Vision_Deficiencies" target="_blank">EyeWiki – Evaluation of Color Vision Deficiencies</a></li>
+  <li><a href="https://www.eyecare-specialists.com/colourvisionold" target="_blank">Eye Care Specialists – Colour Vision</a></li>
+  <li><a href="https://observablehq.com/@frankelavsky/contrast-and-no-use-of-color-alone-in-adjacent-charts" target="_blank">Observable – Contrast and No Use of Color Alone in Adjacent Charts</a></li>
+  <li><a href="https://observablehq.com/@frankelavsky/high-contrast-for-data-visualization-with-examples" target="_blank">Observable – High Contrast for Data Visualization</a></li>
+  <li><a href="https://observablehq.com/@frankelavsky/no-use-of-color-alone-in-data-visualization" target="_blank">Observable – No Use of Color Alone in Data Visualization</a></li>
+  <li><a href="https://help.chi.ac.uk/working-someone-dyslexia" target="_blank">University of Chichester – Working with Someone with Dyslexia</a></li>
+  </ul>
+  <ul>
+  <li><a href="https://www.wcag.com/blog/digital-accessibility-and-neurodiversity/#How_to_get_started_designing_for_neurodiversity" target="_blank">WCAG – Designing for Neurodiversity</a></li>
+  <li><a href="https://www.northeastern.edu/" target="_blank">Northeastern University</a></li>
+  <li><a href="https://www.kennesaw.edu/" target="_blank">Kennesaw State University</a></li>
+  <li><a href="https://www.yale.edu/" target="_blank">Yale University</a></li>
+  <li><a href="https://www.uga.edu/" target="_blank">University of Georgia</a></li>
+  <li><a href="https://www.nytimes.com/" target="_blank">The New York Times</a></li>
+  <li><a href="https://www.cnn.com/?refresh=1" target="_blank">CNN</a></li>
+</ul>
         </div>
       </div>
     </div>

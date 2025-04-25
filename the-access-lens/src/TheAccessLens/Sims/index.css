@@ -49,6 +49,11 @@ h4 {
     height: fit-content;
 }
 
+.personCardCB div div img{
+    margin-bottom: 25px ;
+}
+
+
 .adhdTip div div .adhdimages {
     width: 50% !important;
 }

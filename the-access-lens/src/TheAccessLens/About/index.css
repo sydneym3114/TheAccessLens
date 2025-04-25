@@ -25,13 +25,12 @@
     display: flex;
     flex-direction: row;
     margin: auto !important;
-    gap: 32px;
     width: 100%;
 }
 
 .resourceList ul {
     text-align: left;
-    width: 40%;
+    width: fit-content;
     margin: 0px auto;
 }
 
@@ -40,4 +39,8 @@
     word-wrap: break-word;
     white-space: normal; /* ensure text is allowed to wrap */
     max-width: 100%;
+}
+
+li a {
+    color: black;
 }
